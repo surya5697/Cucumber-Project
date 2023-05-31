@@ -1,0 +1,563 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-01T16:32:51.507Z",
+        "line": 4,
+        "name": "user login the account by using the login module",
+        "description": "",
+        "id": "we-can-ordertobuy-a-product-by-using-the-nykaa-ecommerce-web-application;user-login-the-account-by-using-the-login-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13724000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launch the application",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the signIn button",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the signIn with email/mobileNumber",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_sign_in_with_email_mobile_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navigate to login/register page",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.navigate_to_login_register_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-01T16:33:05.782Z",
+        "line": 11,
+        "name": "user registering the account by using the register module",
+        "description": "",
+        "id": "we-can-ordertobuy-a-product-by-using-the-nykaa-ecommerce-web-application;user-registering-the-account-by-using-the-register-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4369000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter the emailId in the email/mobileNumber field",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_enter_the_email_id_in_the_email_mobile_number_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click the proceed button",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_proceed_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "navigate to account registor page",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.navigate_to_account_registor_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1167000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter the name into name field",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_enter_the_name_into_name_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter the phone number into phone number field",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_enter_the_phone_number_into_phone_number_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click the register button and navigate to login page",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_register_button_and_navigate_to_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28839000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter the otp value in the otp field",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_enter_the_otp_value_in_the_otp_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 211000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click the verify button and verification is successfull navigate to nykaa home page",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_verify_button_and_verification_is_successfull_navigate_to_nykaa_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-01T16:33:41.038Z",
+        "line": 25,
+        "name": "user search for the wanted product",
+        "description": "",
+        "id": "we-can-ordertobuy-a-product-by-using-the-nykaa-ecommerce-web-application;user-search-for-the-wanted-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2912000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user move the mouse into natural element and the dropdown lists are showen",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_move_the_mouse_into_natural_element_and_the_dropdown_lists_are_showen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user choose to click the hairMasks",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_choose_to_click_the_hair_masks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user navigate to hairMasks products listed page to see the all products",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_navigate_to_hair_masks_products_listed_page_to_see_the_all_products()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1627000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user scrollIntoView the specified product of MCaffeine Anti Dandruff Coffee Scalp Scrub with 99% Dandruff Control Treatment; Sulfate-Paraben Free",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 93
+                }
+              ],
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_scroll_into_view_the_specified_product_of_m_caffeine_anti_dandruff_coffee_scalp_scrub_with_dandruff_control_treatment_sulfate_paraben_free(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 585000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user click the needed product of MCaffeine Anti Dandruff Coffee Scalp Scrub with 99% Dandruff Control Treatment; Sulfate-Paraben Free",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 81
+                }
+              ],
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_needed_product_of_m_caffeine_anti_dandruff_coffee_scalp_scrub_with_dandruff_control_treatment_sulfate_paraben_free(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user navigate to MCaffeine Anti Dandruff Coffee Scalp Scrub with 99% Dandruff Control Treatment; Sulfate-Paraben Free page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 65
+                }
+              ],
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_navigate_to_m_caffeine_anti_dandruff_coffee_scalp_scrub_with_dandruff_control_treatment_sulfate_paraben_free_page(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@productSearch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-01T16:33:46.946Z",
+        "line": 36,
+        "name": "user add to cart the product",
+        "description": "",
+        "id": "we-can-ordertobuy-a-product-by-using-the-nykaa-ecommerce-web-application;user-add-to-cart-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 825000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user click the addToCart button to add the wanted product to cart feild",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_add_to_cart_button_to_add_the_wanted_product_to_cart_feild()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 438000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user click the cart to see the user selected product",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_cart_to_see_the_user_selected_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 821000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user see a cart frame listed product and also offers",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_see_a_cart_frame_listed_product_and_also_offers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user applying the given coupon reward",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_applying_the_given_coupon_reward()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3689000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user click the proceed button and navigate to choose address page",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_proceed_button_and_navigate_to_choose_address_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addToCartPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-01T16:33:53.724Z",
+        "line": 45,
+        "name": "user fill the address for product delivering",
+        "description": "",
+        "id": "we-can-ordertobuy-a-product-by-using-the-nykaa-ecommerce-web-application;user-fill-the-address-for-product-delivering",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3167000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user click the add new address then they shows the address gathering fields",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_add_new_address_then_they_shows_the_address_gathering_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 474000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user click the house/Flat/Office No field and entering a doorNo",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_house_flat_office_no_field_and_entering_a_door_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user click the roadName/area/colony field and entering a areaAddress",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_road_name_area_colony_field_and_entering_a_area_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user click the Use as default address button to make a address to default noums",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_use_as_default_address_button_to_make_a_address_to_default_noums()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user click the pincode field and entering the pincode",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_pincode_field_and_entering_the_pincode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user click the name field and entering the name",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_name_field_and_entering_the_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 418000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user click the phone field and entering the phoneNo",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_phone_field_and_entering_the_phone_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 738000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user click the emaildId field and entering the emailId",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_emaild_id_field_and_entering_the_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user click the shipToThisAddress and navigate to choose payment method page",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_click_the_ship_to_this_address_and_navigate_to_choose_payment_method_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addressPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-01T16:34:00.567Z",
+        "line": 58,
+        "name": "user select the way of payment for the product",
+        "description": "",
+        "id": "we-can-ordertobuy-a-product-by-using-the-nykaa-ecommerce-web-application;user-select-the-way-of-payment-for-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2319000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user choose to click the cash on delivery option",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_choose_to_click_the_cash_on_delivery_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user unable to see the place order button",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_unable_to_see_the_place_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user scrollUp the payment page to see the place order button",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_scroll_up_the_payment_page_to_see_the_place_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user wants to click the place order button",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_wants_to_click_the_place_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218000000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user successfully placed the order confirmed",
+            "match": {
+              "location": "com.stepDefiniton.NykaaStepDefinition.user_successfully_placed_the_order_confirmed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@paymentPage"
+          }
+        ]
+      }
+    ],
+    "name": "we can orderToBuy a product by using the nykaa ecommerce web application",
+    "description": "",
+    "id": "we-can-ordertobuy-a-product-by-using-the-nykaa-ecommerce-web-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/FeatureFile/NykaaProject.feature",
+    "tags": []
+  }
+]
