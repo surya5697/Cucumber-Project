@@ -25,6 +25,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class AllMethods {
 	
 	public static WebDriver driver;
@@ -35,18 +37,18 @@ public class AllMethods {
 	public static WebDriver BrowserLaunch(String Browsers) {
 
 		if(Browsers.equalsIgnoreCase("chrome")) {
-			 //System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 
 		}else if(Browsers.equalsIgnoreCase("fireFox")){
-			System.setProperty("webdriver.gecko.driver", "./driver/geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}else if(Browsers.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "./driver/msedgedriver.exe");
+			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 
 		}else {
-			System.out.println("Invalid browser enter the valid browsers");
+			System.out.println("browser is not defined please enter the valid browser");
 		}
 
 		return driver;
